@@ -35,6 +35,7 @@ public class Controller {
   public static void welcome() {
 	  
 	while(!LoggedIn) {
+		System.out.println("\n");
 	    System.out.println("Welcome to your local Bank");
 	    System.out.println("Press 1 to Login");
 	    System.out.println("Press 2 to Create an Account");

@@ -21,10 +21,6 @@ public class BankService {
 		return bdao.findAll();
 	}
 	
-//	public Account getbyId(int id) {
-//		return bdao.findById(id);
-//	}
-	
 	public Account insert(String username, String password) throws PasswordTooShortException, DuplicateUsernameException {
 			return bdao.insert(new Account(username, password));
 	}

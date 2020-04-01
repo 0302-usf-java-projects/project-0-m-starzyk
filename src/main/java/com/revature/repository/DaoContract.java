@@ -20,7 +20,6 @@ public interface DaoContract<T, I> {
 
 	List<T> findAll();
 	List<String> findUsername();
-//	T findByBoolean(boolean b);
 	T findByString(String s);
 	String findBalanceByName(String s);
 	T insert(T t);
